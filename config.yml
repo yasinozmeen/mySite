@@ -1,0 +1,73 @@
+baseURL: ""
+languageCode: en-us
+title: Yasin Özmen
+theme: PaperMod
+
+
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "yasinozmeen"
+    subtitle: "I'm a software lover who is currently studying **Mathematics** in Eskisehir. I'm trying to evolve in the field of **iOS-Swift** and I share my practices while Im learning on github.    \nYou can contact me below.👇🏼 "
+    imageUrl: "me.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: "https://drive.google.com/file/d/15bupi_Ez5GhhNa2LIT7an1Qxg-0XKYH2/view"
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "email"
+      url: "mailto:yasinozmeen3@gmail.com"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/yasinozmeen3/"
+    - name: "github"
+      url: "https://github.com/yasinozmeen"
+    - name: "youtube"
+      url: "https://www.youtube.com/channel/UCo83UrmkpPxZXDCw-IkyBBw"
+    - name: medium
+      url: "https://yasinozmeen.medium.com/"
+    - name: twitter
+      url: "https://www.twitter.com/yasinozmeen"
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
