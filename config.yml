@@ -27,7 +27,7 @@ params:
     enabled: true
     title: "yasinozmeen"
     subtitle: "I'm a software lover who is currently studying **Mathematics** in Eskisehir. I'm trying to evolve in the field of **iOS-Swift** and I share my practices while Im learning on github.    \nYou can contact me below.👇🏼 "
-    imageUrl: "me.jpg"
+    imageUrl: "me.JPG"
     imageWidth: 220
     imageHeight: 220
     # buttons:
